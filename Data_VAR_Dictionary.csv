@@ -1,0 +1,9 @@
+Variable;Description;Source;Link
+gasprod;US Natural Gas Marketed Production;Energy Information Administration (EIA);https://www.eia.gov/dnav/ng/hist/n9050us2M.htm
+gasprice_norm;Henry Hub Natural Gas Price (from Wall Street Journal) deflated by the CPI (see below);"FRED (nominal price; deflated by me)";https://fred.stlouisfed.org/series/GASPRICE
+ip;Industrial Production, not seasonally adjusted;FRED;https://fred.stlouisfed.org/series/IPB50001N
+gasprice_norm2;Henry Hub Natural Gas Price (from EIA) deflated by the CPI (see below);"FRED (nominal price; deflated by me)";https://fred.stlouisfed.org/series/MHHNGSP
+heating_days;Heating Degree Days by Census Division;Energy Information Administration (EIA);https://www.eia.gov/totalenergy/data/monthly/index.php
+cooling_days;Cooling Degree Days by Census Division;Energy Information Administration (EIA);https://www.eia.gov/totalenergy/data/monthly/index.php
+cpi;US Consumer Price Index;FRED;https://fred.stlouisfed.org/series/USACPIALLMINMEI
+rig_count;Baker Hughes Rig Count, ‚U.S. Natural Gas Rotary Rigs in Operation (count)‘;Energy Information Administration (EIA);https://www.eia.gov/dnav/ng/ng_enr_drill_s1_m.htm
