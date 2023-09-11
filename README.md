@@ -1,4 +1,4 @@
-# README: What Drives Drilling Up and Prices Down
+# README: What Drives Drilling Up and Prices Down?
 Replication code and data for 'What Drives Drilling Down and Prices Up? A Structural Vector Autoregressive Model of US Natural Gas Markets'. The code estimates a structural vector autoregressive model of US natural gas markets identified with a mix of sign and zero restrictions using sub-rotations. For the IRFs the modal model (which maximizes the IRF posterior density) as well as 68% highest density bands are plotted. Details can be obtained from the paper. Feedback for both code and paper is highly appreciated, just [email me](mailto:valentin.winkler@icloud.com).
 
 ## R Files
