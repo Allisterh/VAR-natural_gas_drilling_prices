@@ -6,8 +6,8 @@ Replication code and data for 'What Drives Drilling Down and Prices Up? A Struct
 |Category |Filename |Description |
 |:------|:------------|:-----------|
 |**Main** |`main.R` |Estimate SVAR model, compute statistics/distributions of interest, plot and export|
-|**Outsourced** |`bayes_4_4_var.R` |Code for reading in data, estimating SVAR model and computing impulse response functions|
-| |`bayes_rotations_4_4.R` |Conducts sub-rotations and checks if identifying assumptions are fulfilled given a certain reduced form model|
+|**Outsourced** |`bayes_4_4_var.R` |Read in data, estimate SVAR model and compute impulse response functions|
+| |`bayes_rotations_4_4.R` |Conduct sub-rotations and check if identifying assumptions are fulfilled given a certain reduced form model|
 | |`robustness_functions.R`|Functions for robustness checks |
 | |`irfpdf_blockrec.R` |Compute posterior density of structural impulse response function|
 |**Auxiliarly** |`fev_decomp.R` |Compute forecast error variance decomposition for SVAR model |
