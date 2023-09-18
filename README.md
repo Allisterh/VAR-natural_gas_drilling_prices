@@ -1,4 +1,4 @@
-# README: What Drives Drilling Up and Prices Down
+# README: What Drives Drilling Up and Prices Down?
 Replication code and data for 'What Drives Drilling Down and Prices Up? A Structural Vector Autoregressive Model of US Natural Gas Markets'. The code estimates a structural vector autoregressive model of US natural gas markets identified with a mix of sign and zero restrictions using sub-rotations. For the IRFs the modal model (which maximizes the IRF posterior density) as well as 68% highest density bands are plotted. Details can be obtained from the paper. Feedback for both code and paper is highly appreciated, just [email me](mailto:valentin.winkler@icloud.com).
 
 ## R Files
@@ -6,8 +6,8 @@ Replication code and data for 'What Drives Drilling Down and Prices Up? A Struct
 |Category |Filename |Description |
 |:------|:------------|:-----------|
 |**Main** |`main.R` |Estimate SVAR model, compute statistics/distributions of interest, plot and export|
-|**Outsourced** |`bayes_4_4_var.R` |Code for reading in data, estimating SVAR model and computing impulse response functions|
-| |`bayes_rotations_4_4.R` |Conducts sub-rotations and checks if identifying assumptions are fulfilled given a certain reduced form model|
+|**Outsourced** |`bayes_4_4_var.R` |Read in data, estimate SVAR model and compute impulse response functions|
+| |`bayes_rotations_4_4.R` |Conduct sub-rotations and check if identifying assumptions are fulfilled given a certain reduced form model|
 | |`robustness_functions.R`|Functions for robustness checks |
 | |`irfpdf_blockrec.R` |Compute posterior density of structural impulse response function|
 |**Auxiliarly** |`fev_decomp.R` |Compute forecast error variance decomposition for SVAR model |
